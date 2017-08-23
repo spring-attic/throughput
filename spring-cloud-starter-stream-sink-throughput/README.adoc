@@ -1,10 +1,9 @@
 //tag::ref-doc[]
 = Throughput Sink
 
-A simple handler that will count messages and log witnessed throughput at a selected
- interval.
+A simple handler that will count messages and log witnessed throughput at a selected interval.
  
- == Input
+== Input
 
 === Headers
 
