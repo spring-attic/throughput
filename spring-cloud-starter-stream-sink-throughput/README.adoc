@@ -3,12 +3,38 @@
 
 A simple handler that will count messages and log witnessed throughput at a selected
  interval.
+ 
+ == Input
+
+=== Headers
+
+=== Payload
+
+Any
+
+== Output
+
+N/A
+
+== Options
 
 //end::ref-doc[]
 
 == Build
 
 ```
-$ mvn clean package
+$ ./mvnw clean install -PgenerateApps
+$ cd apps
+```
+You can find the corresponding binder based projects here.
+You can then cd into one one of the folders and build it:
+```
+$ ./mvnw clean package
+```
+
+== Examples
+
+```
+java -jar throughput-sink.jar
 ```
 
