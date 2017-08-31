@@ -17,8 +17,6 @@ N/A
 
 == Options
 
-//end::ref-doc[]
-
 == Build
 
 ```
@@ -37,3 +35,4 @@ $ ./mvnw clean package
 java -jar throughput-sink.jar
 ```
 
+//end::ref-doc[]
